@@ -9,7 +9,7 @@ class Shoe
     @brand
   end
 
-  def cobble(condition)
+  def cobble
     puts "the shoe has been repaired"
     Shoe[:condition] = "new"
   end
