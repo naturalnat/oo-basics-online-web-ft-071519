@@ -11,6 +11,5 @@ class Shoe
 
   def cobble
     puts "Your shoe is as good as new!"
-    material.property = "new"
-  end
+
 end
