@@ -8,4 +8,9 @@ class Shoe
   def brand
     @brand
   end
+
+  def cobble(condition)
+    puts "the shoe has been repaired"
+    Shoe[:condition] => "new"
+
 end
