@@ -12,5 +12,5 @@ class Shoe
   def cobble(condition)
     puts "the shoe has been repaired"
     Shoe[:condition] => "new"
-
+  end
 end
